@@ -15,7 +15,7 @@ public class Browser1 {
 		WebDriver dr=null;
 		if(System.getProperty("os.name").toLowerCase().contains("windows")) {
 			if(driver.toLowerCase().equals("chrome")) {
-				System.setProperty("webdriver.chrome.driver",  "C:\\Users\\arjuf\\Downloads\\chromedriver_win32 (4)\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver",  "C:\\Users\\13472\\Desktop\\OSA13A\\chromedriver.exe");
 			    dr=new ChromeDriver();
 			}else if(driver.toLowerCase().equals("firefox")) {
 				System.setProperty("webdriver.gecko.driver", "src\\main\\resources\\drivers\\win\\geckodriver.exe");
