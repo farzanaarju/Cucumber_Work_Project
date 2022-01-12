@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
   <classes>
-       <class name="com.osa.runner.Forum"/>
+       <class name="com.osa.runner.Runner"/>
   </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
