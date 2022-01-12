@@ -7,13 +7,15 @@ Feature: Login into Osa Forum page feature
     And Next I have to type valid Password_<password>
     Then I have to press the login button
     And Next verify the login page
-    Then I have to click the interview questions button
-    Then I have to click the student page button 
-    Then Verify the student login page
+    And I have to click the interview questions button
+    And I have to click the student page button 
+    And Verify the student login page
     And After verify click log out
-    Then I have to close the browser
+    And I have to close the browser
     
     Examples:
    |         username       |     password      | 
    |"arjuarju2015@gmail.com"|"Suhanaalvina2015$"|
+   | "invalid user"  |  "invalid Paaword"        |
+    
    
